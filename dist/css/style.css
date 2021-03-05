@@ -1,0 +1,136 @@
+body {
+	margin-top: 55px;
+}
+
+.fixed-bottoms {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1030;
+	padding: auto;
+}
+
+.fixed-bottoms a {
+	color: #ffffff;
+}
+
+.fixed-bottoms a:hover {
+	color: #999999;
+}
+
+.category a.category {
+	font-size: 1.4em;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #212529;
+}
+
+.category a.category:hover {
+	color: #DA3544;
+}
+
+.col-event p.title {
+	font-size: 15px;
+	font-weight: 700;
+	margin-bottom: 2px !important;
+}
+
+.col-event p.title:hover {
+	text-decoration: underline;
+	margin-bottom: 2px !important;
+}
+
+.col-event p.detail {
+	font-size: 13px;
+}
+.col-event p.date {
+	font-size: 13px;
+	margin-bottom: 0px !important;
+}
+.col-event p.date:hover {
+	color:#DA3544;
+	font-size: 13px;
+	margin-bottom: 0px !important;
+}
+
+.col-event {
+	flex: 0 0 auto;
+	width: 50%;
+}
+
+@media (min-width: 576px) {
+	.category a.category {
+		font-size: 1.6em;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: #212529;
+	}
+	.category a.category:hover {
+		color: #DA3544;
+	}
+	.col-event {
+		flex: 0 0 auto;
+		width: 33.3333333333%;
+	}
+}
+
+@media (min-width: 768px) {
+	.category a.category {
+		font-size: 1.8em;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: #212529;
+	}
+	.category a.category:hover {
+		color: #DA3544;
+	}
+	.col-event {
+		flex: 0 0 auto;
+		width: 25%;
+	}
+}
+
+@media (min-width: 992px) {
+	.category a.category {
+		font-size: 2em;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: #212529;
+	}
+	.category a.category:hover {
+		color: #DA3544;
+	}
+	.col-event {
+		flex: 0 0 auto;
+		width: 20%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.category a.category {
+		font-size: 2em;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: #212529;
+	}
+	.category a.category:hover {
+		color: #DA3544;
+	}
+	.col-event {
+		flex: 0 0 auto;
+		width: 16.66666666666667%;
+	}
+}
+
+@media (min-width: 1400px) {
+	.category a.category {
+		font-size: 2em;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: #212529;
+	}
+	.category a.category:hover {
+		color: #DA3544;
+	}
+}
