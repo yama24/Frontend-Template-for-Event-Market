@@ -13,6 +13,7 @@ body {
 
 .fixed-bottoms a {
 	color: #ffffff;
+	font-size: 1.3em;
 }
 
 .fixed-bottoms a:hover {
@@ -57,6 +58,24 @@ body {
 .col-event {
 	flex: 0 0 auto;
 	width: 50%;
+}
+
+.user hr{
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	padding-top: 0px !important;
+}
+.user p.name{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 700;
+}
+.user p.designation{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-style: italic;
 }
 
 @media (min-width: 576px) {
