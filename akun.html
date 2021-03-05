@@ -19,7 +19,7 @@
 <body>
 	<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-danger">
 		<div class="container">
-			<a class="navbar-brand" href="#">Navbar</a>
+			<a class="navbar-brand" href="#">Event Market</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
 				aria-label="Toggle navigation">
@@ -88,44 +88,149 @@
 
 	<section class="banner" id="banner">
 		<div>
-			<img src="img/banner-user/1.jpg" class="img-fluid" alt="">
+			<img src="img/banner-user/1.jpg" width="100%" class="img-fluid" alt="">
 		</div>
 	</section>
 
 	<section class="user" id="user">
-		<div class="container my-3 py-3">
-			<div class="row d-flex align-items-center">
-				<hr>
-				<div class="col-3 my-2">
-					<img src="img/user/1.jpg" class="img-thumbnail rounded-circle" alt="" srcset="">
+		<div class="container mt-5 mb-3">
+			<div class="card">
+				<div class="card-body">
+					<div class="row d-flex align-items-center">
+						<div class="col-3 my-2">
+							<img src="img/user/1.jpg" class="img-thumbnail rounded-circle" alt="" srcset="">
+						</div>
+						<div class="col-9">
+							<p class="name">Yayan Maulana</p>
+							<p class="designation">Programmer</p>
+						</div>
+					</div>
 				</div>
-				<div class="col-9">
-					<p class="name">Yayan Maulana</p>
-					<p class="designation">Programmer</p>
-				</div>
-				<hr>
 			</div>
 		</div>
 	</section>
 
-	<!-- Modal -->
-	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Scan ini</h5>
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	<section class="tilebar mb-3" id="tilebar">
+		<div class="container">
+			<table class="user-table">
+				<tr>
+					<td>
+						<a href="">
+							<i class="fas fa-2x fa-comment-dots"></i><br>
+							<span>Pesan</span>
+						</a>
+					</td>
+					<td>
+						<a href="">
+							<i class="fas fa-2x fa-qrcode"></i><br>
+							<span>Tiket</span>
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="">
+							<i class="fas fa-2x fa-wallet"></i><br>
+							<span>Dompet</span>
+						</a>
+					</td>
+					<td>
+						<a href="">
+							<i class="fas fa-2x fa-heart"></i><br>
+							<span>Favorit</span>
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</section>
+
+	<section class="listfitur mb-3" id="listfitur">
+		<div class="container">
+			<div class="list-group">
+				<a href="#" class="list-group-item list-group-item-action"><i class="fas fa-fw fa-bed"></i> Fitur
+					pertama</a>
+				<a href="#" class="list-group-item list-group-item-action"><i class="fas fa-fw fa-bars"></i> Fitur
+					kedua</a>
+				<a href="#" class="list-group-item list-group-item-action"><i class="fas fa-fw fa-calendar-alt"></i>
+					Fitur ketiga</a>
+				<a href="#" class="list-group-item list-group-item-action"><i class="fas fa-fw fa-car-side"></i> Fitur
+					keempat</a>
+				<a href="#" class="list-group-item list-group-item-action"><i class="fas fa-fw fa-bell-slash"></i> Fitur
+					kelima</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="accordfitur mb-5" id="accordfitur">
+		<div class="container">
+			<div class="accordion" id="accordionExample">
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingOne">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Accordion Item #1
+						</button>
+					</h2>
+					<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<div class="list-group">
+								<a href="#" class="list-group-item list-group-item-action"><i
+										class="fas fa-fw fa-bed"></i> Fitur pertama</a>
+								<a href="#" class="list-group-item list-group-item-action"><i
+										class="fas fa-fw fa-bars"></i> Fitur kedua</a>
+								<a href="#" class="list-group-item list-group-item-action"><i
+										class="fas fa-fw fa-calendar-alt"></i> Fitur ketiga</a>
+								<a href="#" class="list-group-item list-group-item-action"><i
+										class="fas fa-fw fa-car-side"></i> Fitur keempat</a>
+								<a href="#" class="list-group-item list-group-item-action"><i
+										class="fas fa-fw fa-bell-slash"></i> Fitur kelima</a>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="modal-body text-center">
-					<img src="img/qr/1.png" alt="">
-					<p>Untuk absensi kehadiran</p>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							Accordion Item #2
+						</button>
+					</h2>
+					<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<strong>This is the second item's accordion body.</strong> It is hidden by default, until
+							the collapse plugin adds the appropriate classes that we use to style each element. These
+							classes control the overall appearance, as well as the showing and hiding via CSS
+							transitions. You can modify any of this with custom CSS or overriding our default variables.
+							It's also worth noting that just about any HTML can go within the
+							<code>.accordion-body</code>, though the transition does limit overflow.
+						</div>
+					</div>
 				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							Accordion Item #3
+						</button>
+					</h2>
+					<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<div class="btn-group" role="group" aria-label="Basic mixed styles example">
+								<button type="button" class="btn btn-danger">Left</button>
+								<button type="button" class="btn btn-warning">Middle</button>
+								<button type="button" class="btn btn-success">Right</button>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
+
 	<!-- Option 1: Bootstrap Bundle with Popper -->
 	<script src="dist/js/bootstrap.bundle.min.js"></script>
 

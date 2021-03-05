@@ -1,5 +1,6 @@
 body {
 	margin-top: 55px;
+	margin-bottom: 100px;
 }
 
 .fixed-bottoms {
@@ -24,7 +25,7 @@ body {
 	font-size: 1.4em;
 	margin-left: 20px;
 	margin-right: 20px;
-	color: #212529;
+	color: #6C757D;
 }
 
 .category a.category:hover {
@@ -45,12 +46,14 @@ body {
 .col-event p.detail {
 	font-size: 13px;
 }
+
 .col-event p.date {
 	font-size: 13px;
 	margin-bottom: 0px !important;
 }
+
 .col-event p.date:hover {
-	color:#DA3544;
+	color: #DA3544;
 	font-size: 13px;
 	margin-bottom: 0px !important;
 }
@@ -60,22 +63,42 @@ body {
 	width: 50%;
 }
 
-.user hr{
-	margin-top: 0px !important;
-	margin-bottom: 0px !important;
-	padding-top: 0px !important;
-}
-.user p.name{
+.user p.name {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 14px;
 	font-weight: 700;
 }
-.user p.designation{
+
+.user p.designation {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 14px;
 	font-style: italic;
+}
+
+table.user-table {
+	width: 100%;
+	border: 1px solid #DEDEDE;
+	text-align: center;
+}
+
+table.user-table tr {
+	border: 1px solid #DEDEDE;
+}
+
+table.user-table td {
+	border: 1px solid #DEDEDE;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+table.user-table td a {
+	color: #6C757D;
+	text-decoration: none;
+}
+table.user-table td a:hover {
+	color: #DA3544;
+	text-decoration: none;
 }
 
 @media (min-width: 576px) {
@@ -83,7 +106,7 @@ body {
 		font-size: 1.6em;
 		margin-left: 20px;
 		margin-right: 20px;
-		color: #212529;
+		color: #6C757D;
 	}
 	.category a.category:hover {
 		color: #DA3544;
@@ -99,7 +122,7 @@ body {
 		font-size: 1.8em;
 		margin-left: 20px;
 		margin-right: 20px;
-		color: #212529;
+		color: #6C757D;
 	}
 	.category a.category:hover {
 		color: #DA3544;
@@ -115,7 +138,7 @@ body {
 		font-size: 2em;
 		margin-left: 20px;
 		margin-right: 20px;
-		color: #212529;
+		color: #6C757D;
 	}
 	.category a.category:hover {
 		color: #DA3544;
@@ -131,7 +154,7 @@ body {
 		font-size: 2em;
 		margin-left: 20px;
 		margin-right: 20px;
-		color: #212529;
+		color: #6C757D;
 	}
 	.category a.category:hover {
 		color: #DA3544;
@@ -147,7 +170,7 @@ body {
 		font-size: 2em;
 		margin-left: 20px;
 		margin-right: 20px;
-		color: #212529;
+		color: #6C757D;
 	}
 	.category a.category:hover {
 		color: #DA3544;
