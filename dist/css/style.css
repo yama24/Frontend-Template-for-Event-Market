@@ -3,6 +3,24 @@ body {
 	margin-bottom: 100px;
 }
 
+.navbar-center {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.navbar-brand-center {
+	padding-top: 0.3125rem;
+	padding-bottom: 0.3125rem;
+	font-size: 1.25rem;
+	text-decoration: none;
+	white-space: nowrap;
+	color: #ffffff;
+}
+
+.navbar-brand-center:hover {
+	color: #999999;
+}
+
 .fixed-bottoms {
 	position: fixed;
 	right: 0;
@@ -92,10 +110,12 @@ table.user-table td {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
 table.user-table td a {
 	color: #6C757D;
 	text-decoration: none;
 }
+
 table.user-table td a:hover {
 	color: #DA3544;
 	text-decoration: none;
