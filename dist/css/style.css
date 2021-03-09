@@ -19,6 +19,56 @@ body {
 	color: #999999;
 }
 
+.navbar-togglers {
+	padding: 0.25rem 0.75rem;
+	font-size: 1.25rem;
+	line-height: 1;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+	transition: box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.navbar-togglers {
+		transition: none;
+	}
+}
+
+.navbar-togglers:hover {
+	text-decoration: none;
+}
+
+.navbar-togglers:focus {
+	text-decoration: none;
+	outline: 0;
+	box-shadow: 0 0 0 0.25rem;
+}
+
+.navbar-togglers-icon {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.navbar-expand .navbar-togglers {
+	display: none;
+}
+
+.navbar-light .navbar-togglers {
+	color: rgba(0, 0, 0, 0.55);
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-dark .navbar-togglers {
+	color: rgba(255, 255, 255, 0.55);
+	border-color: rgba(255, 255, 255, 0.1);
+}
+
 .fixed-bottoms {
 	position: fixed;
 	right: 0;
@@ -120,6 +170,9 @@ table.user-table td a:hover {
 }
 
 @media (min-width: 576px) {
+	.navbar-expand-sm .navbar-togglers {
+		display: none;
+	}
 	.category a.category {
 		font-size: 1.6em;
 		margin-left: 20px;
@@ -136,6 +189,9 @@ table.user-table td a:hover {
 }
 
 @media (min-width: 768px) {
+	.navbar-expand-md .navbar-togglers {
+		display: none;
+	}
 	.category a.category {
 		font-size: 1.8em;
 		margin-left: 20px;
@@ -152,6 +208,9 @@ table.user-table td a:hover {
 }
 
 @media (min-width: 992px) {
+	.navbar-expand-lg .navbar-togglers {
+		display: none;
+	}
 	.category a.category {
 		font-size: 2em;
 		margin-left: 20px;
@@ -168,6 +227,9 @@ table.user-table td a:hover {
 }
 
 @media (min-width: 1200px) {
+	.navbar-expand-xl .navbar-togglers {
+		display: none;
+	}
 	.category a.category {
 		font-size: 2em;
 		margin-left: 20px;
@@ -184,6 +246,9 @@ table.user-table td a:hover {
 }
 
 @media (min-width: 1400px) {
+	.navbar-expand-xxl .navbar-togglers {
+		display: none;
+	}
 	.category a.category {
 		font-size: 2em;
 		margin-left: 20px;
