@@ -76,8 +76,8 @@ body {
 
 .category a.category {
 	font-size: 1.4em;
-	margin-left: 20px;
-	margin-right: 20px;
+	/* margin-left: 20px;
+	margin-right: 20px; */
 	color: #6C757D;
 }
 
